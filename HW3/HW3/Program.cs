@@ -167,7 +167,7 @@ for (int i = 0; i < ABCodd.Length; i++)
 }
 for (int i = 0; i < ABCeven.Length; i++)
 {
-    switch (ABCodd[i])
+    switch (ABCeven[i])
     {
         case "A":
             CountBigeven += 1;
@@ -197,18 +197,17 @@ Console.WriteLine("The bigger");
 if (CountBigodd> CountBigeven)
 {
     Console.Write("odd:");
-    for (int i = 0; i < odd.Length; i++)
-    {
-        Console.Write(odd[i]+" ");
-    }
+    
+    
+        Console.Write(ABC(odd));
+    
         
        
 }
 else
 {
     Console.Write("even:");
-    for (int i = 0; i < even.Length; i++)
-    {
-        Console.Write(even[i] + " ");
-    }
+    
+        Console.Write(ABC(even));
+    
 }
